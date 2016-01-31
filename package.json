@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run deploy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --devtool eval-source-map --progress --colors --hot --host 0.0.0.0",
     "deploy": "NODE_ENV=production webpack -p",
@@ -20,10 +19,10 @@
     "bulma": "0.0.7",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "webpack": "^1.12.12",
     "express": "^4.13.4"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "linux-illness",
+  "name": "bingti-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "受 https://www.v2ex.com/t/254162 启发的病体生成机",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +9,12 @@
     "deploy": "NODE_ENV=production webpack -p",
     "production": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/xiamx/bingti-generator.git"
+  },
+  "author": "Mengxuan Xia",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",

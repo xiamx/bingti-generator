@@ -45,6 +45,9 @@ ReactDOM.render(
       <div>
         Github <a href="https://github.com/xiamx">xiamx</a>
       </div>
+      <div>
+        源码 <a href="https://github.com/xiamx/bingti-generator">https://github.com/xiamx/bingti-generator</a>
+      </div>
     </footer>
   </section>
 ,
